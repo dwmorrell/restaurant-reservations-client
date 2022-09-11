@@ -5,8 +5,7 @@ import formatReservationTime from "./format-reservation-date";
  * Defines the base URL for the API.
  * The default values is overridden by the `API_BASE_URL` environment variable.
  */
- const API_BASE_URL =
- process.env.REACT_APP_API_BASE_URL || "https://restaurant-res-backend-app.herokuapp.com/";
+ const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "https://restaurant-res-backend-app.herokuapp.com";
 
 
 /**
